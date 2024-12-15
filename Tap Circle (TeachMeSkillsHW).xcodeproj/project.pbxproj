@@ -6,30 +6,25 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CEB97C0F2D0F0C6000AB65C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB97C062D0F0C6000AB65C4 /* Assets.xcassets */; };
+		CEB97C132D0F0C6000AB65C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB97C052D0F0C6000AB65C4 /* AppDelegate.swift */; };
+		CEB97C142D0F0C6000AB65C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB97C0C2D0F0C6000AB65C4 /* SceneDelegate.swift */; };
+		CEB97C152D0F0C6000AB65C4 /* TapCircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB97C0D2D0F0C6000AB65C4 /* TapCircleViewController.swift */; };
+		CEB97C172D0F43B400AB65C4 /* MovingTheCircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB97C162D0F43B400AB65C4 /* MovingTheCircleViewController.swift */; };
+		CEB97C192D0F43C500AB65C4 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB97C182D0F43C500AB65C4 /* StartViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		CEB97BEC2D0F0C4A00AB65C4 /* Tap Circle (TeachMeSkillsHW).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap Circle (TeachMeSkillsHW).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB97C052D0F0C6000AB65C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEB97C062D0F0C6000AB65C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEB97C072D0F0C6000AB65C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB97C0C2D0F0C6000AB65C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEB97C0D2D0F0C6000AB65C4 /* TapCircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapCircleViewController.swift; sourceTree = "<group>"; };
+		CEB97C162D0F43B400AB65C4 /* MovingTheCircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingTheCircleViewController.swift; sourceTree = "<group>"; };
+		CEB97C182D0F43C500AB65C4 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CEB97BFE2D0F0C4D00AB65C4 /* Exceptions for "Tap Circle (TeachMeSkillsHW)" folder in "Tap Circle (TeachMeSkillsHW)" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = CEB97BEB2D0F0C4A00AB65C4 /* Tap Circle (TeachMeSkillsHW) */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		CEB97BEE2D0F0C4A00AB65C4 /* Tap Circle (TeachMeSkillsHW) */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				CEB97BFE2D0F0C4D00AB65C4 /* Exceptions for "Tap Circle (TeachMeSkillsHW)" folder in "Tap Circle (TeachMeSkillsHW)" target */,
-			);
-			path = "Tap Circle (TeachMeSkillsHW)";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CEB97BE92D0F0C4A00AB65C4 /* Frameworks */ = {
@@ -45,7 +40,7 @@
 		CEB97BE32D0F0C4A00AB65C4 = {
 			isa = PBXGroup;
 			children = (
-				CEB97BEE2D0F0C4A00AB65C4 /* Tap Circle (TeachMeSkillsHW) */,
+				CEB97C0E2D0F0C6000AB65C4 /* Tap Circle (TeachMeSkillsHW) */,
 				CEB97BED2D0F0C4A00AB65C4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +51,36 @@
 				CEB97BEC2D0F0C4A00AB65C4 /* Tap Circle (TeachMeSkillsHW).app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB97C0E2D0F0C6000AB65C4 /* Tap Circle (TeachMeSkillsHW) */ = {
+			isa = PBXGroup;
+			children = (
+				CEB97C1A2D0F43CF00AB65C4 /* ViewControllers */,
+				CEB97C062D0F0C6000AB65C4 /* Assets.xcassets */,
+				CEB97C1B2D0F43EE00AB65C4 /* App */,
+			);
+			path = "Tap Circle (TeachMeSkillsHW)";
+			sourceTree = "<group>";
+		};
+		CEB97C1A2D0F43CF00AB65C4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEB97C0D2D0F0C6000AB65C4 /* TapCircleViewController.swift */,
+				CEB97C162D0F43B400AB65C4 /* MovingTheCircleViewController.swift */,
+				CEB97C182D0F43C500AB65C4 /* StartViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CEB97C1B2D0F43EE00AB65C4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CEB97C0C2D0F0C6000AB65C4 /* SceneDelegate.swift */,
+				CEB97C052D0F0C6000AB65C4 /* AppDelegate.swift */,
+				CEB97C072D0F0C6000AB65C4 /* Info.plist */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +97,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				CEB97BEE2D0F0C4A00AB65C4 /* Tap Circle (TeachMeSkillsHW) */,
 			);
 			name = "Tap Circle (TeachMeSkillsHW)";
 			packageProductDependencies = (
@@ -122,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB97C0F2D0F0C6000AB65C4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB97C192D0F43C500AB65C4 /* StartViewController.swift in Sources */,
+				CEB97C172D0F43B400AB65C4 /* MovingTheCircleViewController.swift in Sources */,
+				CEB97C132D0F0C6000AB65C4 /* AppDelegate.swift in Sources */,
+				CEB97C142D0F0C6000AB65C4 /* SceneDelegate.swift in Sources */,
+				CEB97C152D0F0C6000AB65C4 /* TapCircleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,10 +175,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 24Q9WM75S6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Tap Circle (TeachMeSkillsHW)/Info.plist";
+				INFOPLIST_FILE = "Tap Circle (TeachMeSkillsHW)/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -160,9 +187,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "halushko.Tap-Circle--TeachMeSkillsHW-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -175,10 +206,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 24Q9WM75S6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Tap Circle (TeachMeSkillsHW)/Info.plist";
+				INFOPLIST_FILE = "Tap Circle (TeachMeSkillsHW)/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -188,9 +218,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "halushko.Tap-Circle--TeachMeSkillsHW-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
